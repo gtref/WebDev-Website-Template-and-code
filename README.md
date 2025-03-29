@@ -6,3 +6,5 @@ All of the following files in the repository are currently all the necessary fil
 If you want features like changing the admin password and adding users it would be a good idea to release it the internet using apache2 php and mariadb or mysql. 
 
 Happy coding. 
+# Base admin password is admin123. This can be changed from admin login.js
+
