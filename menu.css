@@ -1,0 +1,37 @@
+/* Style the menu container */
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full page height */
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Style the buttons */
+.menu button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Button hover effect */
+.menu button:hover {
+    background-color: darkorange;
+}
+
+/* Style for the logo */
+.logo {
+    position: fixed;  /* Keep it in place while scrolling */
+    top: 10px;        /* Distance from the top */
+    right: 10px;      /* Distance from the right */
+    width: 50px;     /* Adjust the size */
+    height: auto;     /* Maintain aspect ratio */
+}

@@ -1,0 +1,88 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling for the logo */
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: right;
+}
+
+.logo {
+    width: 50px; /* Adjust logo size */
+    height: auto;
+}
+
+/* Styling for the about container */
+.about-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h1 {
+    color: #4CAF50;
+    font-size: 2.5em;
+}
+
+/* Subtitle styling */
+h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style buttons to be yellow */
+button {
+    background-color: orange; /* Set background to yellow */
+    color: black; /* Set text color to black for contrast */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px; /* Adjust the width as needed */
+    text-align: center;
+}
+
+/* Button hover effect for a darker yellow */
+button:hover {
+    background-color: gold; /* Change to gold on hover */
+}
